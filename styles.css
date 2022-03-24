@@ -1,28 +1,70 @@
 body {
+    width: 100vw;
+    height: 100vw;
+    font-family: 'Roboto', sans-serif;
     background-color: #f6f8f5;
 }
 
-.header {
+.header,
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 7%;
     background-color: #1f2937;
 }
 
+.section1,
+.section2,
+.section3,
+.section4 {
+    width: 100%;
+    min-height: 22.5%;
+}
+
+.section1 {
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    width: 80%;
+}
+
 .header_text {
-    font-size: 24px;
+    font-weight: 700;
+    padding-left: 50px;
+    font-size: x-large;
+}
+
+.links a {
     color: #f9faf8;
+    font-size: small;
+    margin-left: auto;
+    padding-right: 50px;
+    font-weight: 500;
+}
+
+.hlinks {
+    margin-right: 30px;
 }
 
 .section1 {
     background-color: #1f2937;
 }
 
-h1 {
+
+/* h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bold;
-}
+} */
 
 .section2 {
     background-color: #f6f8f5;
+}
+
+.s2h1 {
+    color: #1f2937;
 }
 
 .button {
@@ -33,10 +75,20 @@ h1 {
     background-color: #e5e7eb;
 }
 
-.class {
+
+/* .class {
     font: 36px light italic #1f2937;
-}
+} */
 
 .section4 {
     background-color: #f6f8f5;
+}
+
+
+/* .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center; */
+
+
 }
