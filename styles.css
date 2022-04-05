@@ -51,6 +51,8 @@ body {
 
 .section1 {
     background-color: #1f2937;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .s1h1,
